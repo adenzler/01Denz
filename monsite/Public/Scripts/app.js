@@ -7,3 +7,7 @@ function check_name(name){
 		console.log("Truth !"+ name + " is different from gabriel and Clement !");
 	}
 }
+
+$(document).ready(function(){
+	check_name("gabriel");
+});
