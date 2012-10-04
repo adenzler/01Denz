@@ -3,11 +3,18 @@
 }
 
 body
-{background-color: grey;
+{background-color: #B4AF91;
 margin-left: 30px;
 margin-right: 640px;
 }
 
+.line {
+	height: 2px;
+	width: 400px;
+	background-color: #000000;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
 
 .bandeau {
 	width : 300px;
@@ -19,6 +26,14 @@ margin-right: 640px;
 	padding-bottom: 40px;
 	padding-left: 10px;
 	padding-right: 5px;
+}
+
+.blocgauche{
+	margin-left: 150px;
+	margin-right: 150px;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
 }
 
 footer {
