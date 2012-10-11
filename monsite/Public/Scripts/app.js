@@ -11,4 +11,8 @@ function check_name(name){
 
 $(document).ready(function(){
 	alert(check_name("gabriel"));
+	$("div").html("<span class='red'>Hello <b>Again</b></span>");
+	$("h1").html("Arnaud D.").click(function(){
+		$(".line").remove()
+	});
 });
